@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('#btn-dropdown-topico-1').dropdown({
+        hover:true
+    });
+    $('#btn-dropdown-topico-2').dropdown({
+        hover:true
+    });
+    $('#btn-dropdown-topico-3').dropdown({
+        hover:true
+    });
+});

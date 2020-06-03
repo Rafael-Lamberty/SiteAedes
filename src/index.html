@@ -1,13 +1,83 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="../fonts/material-icons-0.3.1/iconfont/material-icons.css">
+
   <meta charset="utf-8">
   <title>SiteProjetoAedes</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">.
+
 </head>
 <body>
   <app-root></app-root>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="../js/app.js"></script>
 </body>
+
+<header class="navbar">
+  <nav class=" light-blue accent-2">
+    <div class="nav-wrapper container">
+      <ul>
+          <div class="row">
+              <div class=>
+                  <li>
+                      <a href="javascript:void(0)" class="topicos black-text">Página Inicial
+                      <i class="material-icons right">home</i>
+                      </a>
+                  </li>
+              </div>
+          <div >
+              <li>
+                  <a class="topicos" id="btn-dropdown-topico-1" data-activates='dropdown-topico-1'>
+                      <span class="black-text">SIGAEDES</span>
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                  <ul id='dropdown-topico-1' class='dropdown-content' >
+                      <li><a href="#!">Web</a></li>
+                      <li><a href="#!">Mobile</a></li>
+                      <li class="divider" tabindex="-1"></li>
+                      <li><a href="#!">LIRAa</a></li>
+                      <li><a href="#!">Conexões</i>four</a></li>
+                      <li><a href="#!">Material Didático</i>five</a></li>
+                  </ul>
+              </li>
+          </div>
+          <div>
+              <li>
+                  <a class="topicos" id="btn-dropdown-topico-2" data-activates='dropdown-topico-2'>
+                      <span class="black-text">Simulação</span>
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                  <ul id='dropdown-topico-2' class='dropdown-content' >
+                      <li><a href="#!">Simulação Computacional</a></li>
+                  </ul>
+              </li>
+          </div>
+          <div>
+              <li>
+                  <a class="topicos" id="btn-dropdown-topico-3" data-activates='dropdown-topico-3'>
+                      <span class="black-text">Informações do Grupo</span>
+                      <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+                  <ul id='dropdown-topico-3' class='dropdown-content' >
+                      <li><a href="#!">LCAS</a></li>
+                      <li><a href="#!">Integrantes</a></li>
+                      <li class="divider" tabindex="-1"></li>
+                      <li><a href="#!">Ética em Pesquisa</a></li>
+                      <li><a href="#!">Apoio e Financiamento</a></li>
+                  </ul>
+              </li>
+          </div>
+          <img class="parceiros right" src="assets/img/parceiros/govparana.png">
+          <img class="parceiros right" src="assets/img/parceiros/unioeste.png">
+          <img class="parceiros right" src="assets/img/parceiros/prefeituraCvel.png">
+          </div>
+          </ul>
+      </div>
+  </nav>
+</header>
+
 </html>
